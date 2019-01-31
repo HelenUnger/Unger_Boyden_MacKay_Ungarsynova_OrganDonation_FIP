@@ -9,7 +9,8 @@
 
 ### Prerequisites
 
-- requires node.js (npm)
+- requires -node.js (npm)
+           -php
 
 ### Installing
 
