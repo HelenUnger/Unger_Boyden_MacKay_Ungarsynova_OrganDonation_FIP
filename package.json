@@ -1,0 +1,23 @@
+{
+  "name": "unger_boyden_mackay_ungarsynova_organdonation_fip",
+  "version": "1.0.0",
+  "description": "packages for final project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "sass --watch public/style/sass/main.scss:public/style/css/main.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelenUnger/Unger_Boyden_MacKay_Ungarsynova_OrganDonation_FIP.git"
+  },
+  "author": "Helen Unger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HelenUnger/Unger_Boyden_MacKay_Ungarsynova_OrganDonation_FIP/issues"
+  },
+  "homepage": "https://github.com/HelenUnger/Unger_Boyden_MacKay_Ungarsynova_OrganDonation_FIP#readme",
+  "dependencies": {
+    "sass": "^1.16.1"
+  }
+}

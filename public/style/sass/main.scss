@@ -1,0 +1,10 @@
+//to run sass compiling run: npm run watch-sass
+@import 'vars';
+@import 'header';
+
+//main basic styles
+
+*{
+    margin: 0;
+    padding: 0;
+}
