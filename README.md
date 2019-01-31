@@ -5,6 +5,7 @@
 ## Getting Started
 
 - git clone
+- run 'npm install' to install all package dependancies 
 - run 'npm run watch-sass' to compile sass
 
 ### Prerequisites
