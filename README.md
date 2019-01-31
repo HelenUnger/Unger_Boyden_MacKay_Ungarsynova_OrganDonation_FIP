@@ -1,6 +1,5 @@
-# Organ Donation Project
-
-
+# Organ Donation Website
+This website was made to promote awareness about registering to donate your organs in Ontario, Canada. 
 
 ## Getting Started
 
