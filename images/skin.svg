@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770.96 770.96">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #ca4d4d;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 20px;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>skin</title>
+  <g id="Layer_7" data-name="Layer 7">
+    <circle class="cls-1" cx="385.48" cy="385.48" r="385.48"/>
+  </g>
+  <g id="Layer_10" data-name="Layer 10">
+    <rect class="cls-2" x="202.39" y="326.54" width="383.75" height="164.46"/>
+    <path class="cls-2" d="M585,414.82" transform="translate(-12.61 -10.61)"/>
+    <g>
+      <polyline class="cls-1" points="211.53 379.74 230.47 397.59 252.47 383.74 274.48 397.59 293.42 379.74 312.35 397.59 334.36 383.74 356.37 397.59 375.3 379.74 394.24 397.59 416.25 383.74 438.26 397.59 457.2 379.74 476.14 397.59 498.14 383.74 520.15 397.59 539.1 379.74 558.04 397.59 580.05 383.74"/>
+      <polyline class="cls-3" points="211.53 379.74 230.47 397.59 252.47 383.74 274.48 397.59 293.42 379.74 312.35 397.59 334.36 383.74 356.37 397.59 375.3 379.74 394.24 397.59 416.25 383.74 438.26 397.59 457.2 379.74 476.14 397.59 498.14 383.74 520.15 397.59 539.1 379.74 558.04 397.59 580.05 383.74"/>
+    </g>
+    <path class="cls-3" d="M295,434.61S224.14,325,305.61,243.5" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-3" d="M412.71,435.63S341.9,326,423.37,244.52" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-3" d="M541.64,437.66S470.83,328,552.3,246.55" transform="translate(-12.61 -10.61)"/>
+  </g>
+</svg>

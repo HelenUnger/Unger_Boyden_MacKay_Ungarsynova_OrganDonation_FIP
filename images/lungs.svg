@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770.96 770.96">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #ca4d4d;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 15px;
+      }
+
+      .cls-3 {
+        fill: #db6780;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>lungs</title>
+  <g id="Layer_7" data-name="Layer 7">
+    <circle class="cls-1" cx="385.48" cy="385.48" r="385.48"/>
+  </g>
+  <g id="LUNGS">
+    <path class="cls-2" d="M294.19,327.37c0,2.34,72.09-67.74,72.09-67.74V168H431v90.32l74.69,74.26-36.91,35.17L401.88,307H390.59L333.06,364.5S294.19,326.93,294.19,327.37Z" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-2" d="M216.13,582.74s0-27.4-7.21-63.46,4.32-188.94,30.28-222.11,82.21-30.29,98.08,24.52,64.9,165.86,43.27,186.05-17.31,15.87-47.6,40.39S253.63,602.93,216.13,582.74Z" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-2" d="M577,588s0-27.4,7.21-63.46-4.33-188.94-30.29-222.11-82.21-30.29-98.08,24.51S390.89,492.78,412.52,513s17.31,15.87,47.6,40.39S539.45,608.16,577,588Z" transform="translate(-12.61 -10.61)"/>
+    <line class="cls-3" x1="356.58" y1="184.15" x2="375.33" y2="184.15"/>
+    <line class="cls-3" x1="378.22" y1="208.67" x2="417.16" y2="208.67"/>
+    <line class="cls-3" x1="355.86" y1="231.75" x2="413.55" y2="231.75"/>
+    <line class="cls-3" x1="344.32" y1="261.32" x2="431.58" y2="261.32"/>
+    <line class="cls-3" x1="394.8" y1="172.62" x2="415.71" y2="172.62"/>
+    <g>
+      <path class="cls-4" d="M253.81,543.08s41.82-5.77,41.82-87.26V346.93" transform="translate(-12.61 -10.61)"/>
+      <path class="cls-4" d="M299.24,477.45s23.08-45.07,45.07-45.07" transform="translate(-12.61 -10.61)"/>
+      <path class="cls-3" d="M294.19,427s-26.68-39.66-42.55-39.66" transform="translate(-12.61 -10.61)"/>
+    </g>
+    <g>
+      <path class="cls-4" d="M554.16,546s-41.82-5.77-41.82-87.26V349.81" transform="translate(-12.61 -10.61)"/>
+      <path class="cls-4" d="M508.73,480.34s-23.07-45.07-45.07-45.07" transform="translate(-12.61 -10.61)"/>
+      <path class="cls-3" d="M513.78,429.86s26.68-39.66,42.55-39.66" transform="translate(-12.61 -10.61)"/>
+    </g>
+  </g>
+</svg>

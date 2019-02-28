@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770.96 770.96">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #ca4d4d;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <title>kidneys</title>
+  <g id="Layer_7" data-name="Layer 7">
+    <circle class="cls-1" cx="385.48" cy="385.48" r="385.48"/>
+  </g>
+  <g id="KIDNEYS">
+    <path class="cls-2" d="M255,391.67s91.33,10.66,111.33-65.34-234-94-232,76,145.34,177.34,198,118-36.66-98.66-67.33-82C265,438.33,287.67,410.33,255,391.67Z" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-2" d="M537.26,389.67s-91.33,10.66-111.33-65.34,234-94,232,76-145.33,177.34-198,118,36.67-98.66,67.33-82C527.26,436.33,504.6,408.33,537.26,389.67Z" transform="translate(-12.61 -10.61)"/>
+  </g>
+</svg>

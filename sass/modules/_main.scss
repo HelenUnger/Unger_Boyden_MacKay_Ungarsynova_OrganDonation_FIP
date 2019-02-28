@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #dbd6d2;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display: block !important;
+}
+
+.component-container{
+    z-index: 0;
+    overflow: hidden;
+    max-width: 100vw;
+}
+
+
+
