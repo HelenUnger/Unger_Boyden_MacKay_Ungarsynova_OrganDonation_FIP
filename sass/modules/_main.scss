@@ -7,7 +7,7 @@
 body{
     scroll-behavior: smooth;
     font-family: 'Quicksand', sans-serif;
-    background-color: #dbd6d2;
+    background-color: #fff;
 }
 
 .hidden{
@@ -16,6 +16,11 @@ body{
 
 .show{
     display: block !important;
+}
+
+a{
+    text-decoration: none;
+    margin: 0 auto;
 }
 
 .component-container{
