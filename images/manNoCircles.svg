@@ -1,0 +1,33 @@
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 261.29 624.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #222;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #232323;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-width: 50px;
+      }
+
+      .cls-3 {
+        stroke-width: 55px;
+      }
+    </style>
+  </defs>
+  <title>manNoCircles</title>
+  <g>
+    <circle class="cls-1" cx="129.29" cy="53" r="53"/>
+    <path class="cls-2" d="M301,414s-42.82-172,95-172" transform="translate(-269.71 -91)"/>
+    <path class="cls-2" d="M499.71,414s42.82-172-95-172" transform="translate(-269.71 -91)"/>
+    <rect class="cls-1" x="71.29" y="158" width="121" height="225" rx="12" ry="12"/>
+    <line class="cls-3" x1="99.29" y1="344" x2="99.29" y2="597"/>
+    <line class="cls-3" x1="165.29" y1="344" x2="165.29" y2="597"/>
+  </g>
+</svg>

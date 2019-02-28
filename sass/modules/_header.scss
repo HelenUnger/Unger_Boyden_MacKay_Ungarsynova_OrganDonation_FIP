@@ -1,0 +1,135 @@
+header{
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    color: #fff;
+    z-index: 100;
+    font-family: 'Amatic SC', cursive;
+    transition: background-color 1s linear;
+
+    .logo{
+        margin: 5px;
+        max-width: 5vw;
+    }
+
+    .ham-menu{
+        position: absolute;
+        top: 2px;
+        right: 9px;
+        font-size: 1.8em;
+    }
+
+    .nav-links{
+        font-family: 'Amatic SC', cursive;
+        font-size: 3em;
+        text-transform: lowercase;
+        left: 100%;
+        top: 0;
+        position: fixed;
+        z-index: 100;
+        width: 50%;
+        height: 100vh;
+        background-color: #516d57;
+        transition: all 0.5s ease-in-out;
+
+        .exit{
+            position: absolute;
+            right: 10px;
+            top: 0;
+            color: #fff;
+            font-size: 1em;
+        }
+
+    .links{
+            margin-top: 10%;
+            list-style: none;
+            padding: 10px 0;
+            li{
+                display: block;
+                font-size: 2em;
+                padding: 10px;
+                text-align: center;
+                border-bottom: 0.5px solid rgb(128, 128, 128);
+                text-align: center;
+            }
+        }
+        .social{
+            display: flex;
+            justify-content: center;
+            margin: 6% 0;
+            list-style: none;
+            li {
+                margin: 5%;
+                display: inline-block;
+                font-size: 2em;
+                text-align: center;
+            }
+        }
+    }
+
+    a{
+        display: block;
+        font-size: 1.5em;
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+        &:hover{
+            color: #9fb59d;
+        }
+    }
+
+    .openNav{
+        left: 50% !important;
+    }
+}
+
+@media screen and (min-width:760px){
+    header{
+        .ham-menu, .exit{
+            display: none;
+        }
+        .logo{
+            max-width: 12vw;
+        }
+        .nav-links{
+            left: 0;
+            height: 100px;
+            background-color: transparent;
+            width: 100%;
+            .links{
+                position: fixed;
+                right: 0;
+                top: 0;
+                margin: 0;
+                padding: 0;
+                font-size: .75em;
+            }
+        }
+        a{
+            display: inline-block;
+        }
+    }
+}
+
+
+
+// @media screen and (min-width:1000px){
+//     .ham-menu, .exit{
+//         font-size: 3em;
+//     }
+
+//     .logo{
+//         max-width: 8vw;
+//     }
+
+//     header h1{
+//         font-size: 4em;
+//         left: 40%;
+//     }
+    
+// }
+
+.headColor{
+    background-color: #b41b1bf8 !important;
+}

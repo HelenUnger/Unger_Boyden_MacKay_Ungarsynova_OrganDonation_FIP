@@ -4,42 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Ontario Organ Donation</title>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.0.2/vue-router.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="public/style/css/main.css">
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand%7CStaatliches" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <main>
-        <div id="app">
-            <router-link :to="{path: '/'}">Home</router-link>
-            <router-link :to="{path: '/about'}">About</router-link>
-            <router-link :to="{path: '/contact'}">Contact</router-link>
+    <main id="app">
+        <h1 class="hidden">Ontario Organ Donation</h1>
+        <header :class="{headColor : scroll}">
+            <img class="logo" src="images/FINALLOGO-01.svg" alt="logo">
+            <nav class="menu">
+                <h2 class="hidden">Main Navigation</h2>
+                <div v-on:click="toggleNav" class="ham-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="nav-links" :class="{openNav : navTrue}">
+                    <div v-on:click="toggleNav" class="exit"><i class="fas fa-times"></i></div>
+                    <div class="links">
+                        <router-link :to="{path: '/'}" v-on:click="toggleNav" class="link">Home</router-link>
+                        <a href="#explore" v-on:click.prevent="toggleNav">Facts</a>
+                        <router-link :to="{path: 'register'}" v-on:click="toggleNav">Stories</router-link>
+                        <router-link :to="{path: 'register'}" v-on:click="toggleNav">Events</router-link>
+                        <a href="https://www.tripadvisor.ca/SmartDeals-g154979-Ontario-Hotel-Deals.html">DONATE</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
+        <div class="component-container">
+            <!-- <router-view></router-view> -->
+            <div class="content">
+                <section class="parallax">
+                    <!-- <img src="" alt=""> -->
+                    <h2>Tagline or logo or something</h2>
+                    <a class="button" href="https://www.ontario.ca/page/organ-and-tissue-donor-registration?utm_source=so&utm_medium=keyword&utm_campaign=original">DONATE</a>
+                </section>
 
-            <router-view></router-view>
+                <section class="two-div">
+                    <div class="half-div red mins">
+                        <p>it only takes 2 minutes to donate</p>
+                        <a class="button" href="https://www.ontario.ca/page/organ-and-tissue-donor-registration?utm_source=so&utm_medium=keyword&utm_campaign=original">DONATE</a>
+                    </div>
+                    <div class="half-div white fact">
+                        <a class="button" href="/facts">FACTS</a>
+                        <img src="" alt="">
+                    </div>
+                </section>
 
+                <section class="stories">
+                    <div class="left">
+                        <h2>Stories</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque est nisi accusamus ex itaque minima, illum provident excepturi vero maxim!</p>
+                        <a class="button" href="/stories">VIEW STORIES</a>
+                    </div>
+                    <div class="right">
+                        <img src="" alt="">
+                    </div>
+                </section>
+
+                <section class="one-div white video">
+                    <video src=""></video>
+                </section>
+
+                <section class="one-div red event-div">
+                    <div class="events">
+                        <a href="/event"><div class="event"><h3>event</h3><p>date</p><p>location</p></div></a>
+                        <a href="/event"><div class="event"><h3>event</h3><p>date</p><p>location</p></div></a>
+                        <a href="/event"><div class="event"><h3>event</h3><p>date</p><p>location</p></div></a>
+                    </div>
+                    <div class="eventsInfo">
+                        <h2>Events</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore dolorem tempora odit harum, eaque voluptas minima?</p>
+                        <a class="button" href="/events">VIEW MORE</a>
+                    </div>
+                </section>
+                
+                <section class="one-div end">
+                    <h2>Thankyou</h2>
+                    <img src="" alt="">
+                    <a class="button" href="/donate">DONATE</a>
+                </section>
+            </div>
         </div>
+        <footer>
+            <p>&copy; 2019 CHAD Group</p>
+        </footer>
     </main>
-    <!-- templates -->
-    <template id="hometemplate">
-        <div class="main-content">
-            <h2>home page!</h2>
-        </div>
-    </template>
 
-    <template id="abouttemplate">
-        <div class="main-content">
-            <h2>About page!</h2>
-        </div>
-    </template>
+    <script type="module" src="js/main.js"></script>
 
-    <template id="contacttemplate">
-        <div class="main-content">
-            <h2>Contact Page!</h2>
-        </div>
-    </template>
 </body>
-<script src="public/js/main.js"></script>
 </html>

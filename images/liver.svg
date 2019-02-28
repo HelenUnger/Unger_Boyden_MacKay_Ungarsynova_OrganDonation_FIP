@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770.96 770.96">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #ca4d4d;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <title>liver</title>
+  <g id="Layer_7" data-name="Layer 7">
+    <circle class="cls-1" cx="385.48" cy="385.48" r="385.48"/>
+  </g>
+  <g id="LIVER">
+    <path class="cls-2" d="M164,585s21-38.14,21.93-75.32S157.36,255.1,356.64,255.1H647.47S638.88,472.5,427.2,472.5c0,0-125.86-14.3-161.14,78.19,0,0-9.54,44.81-41,44.81H162.13A9.33,9.33,0,0,1,164,585Z" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-2" d="M548.3,339s-23.84,64.84-146.84,74.37" transform="translate(-12.61 -10.61)"/>
+  </g>
+</svg>

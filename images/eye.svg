@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770.96 770.96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ca4d4d;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 20px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>eye</title>
+  <g id="Layer_7" data-name="Layer 7">
+    <circle class="cls-1" cx="385.48" cy="385.48" r="385.48"/>
+  </g>
+  <g id="EYES">
+    <circle class="cls-2" cx="384.98" cy="382.48" r="185.09"/>
+    <circle class="cls-3" cx="385.39" cy="384.39" r="93"/>
+    <polyline class="cls-2" points="440.39 323.39 449.06 300.27 452.39 291.39 435.39 256.39"/>
+    <line class="cls-2" x1="485.39" y1="293.39" x2="449.06" y2="300.27"/>
+    <path class="cls-2" d="M484.5,434.5,500,444l3.44,2.11L506.5,448s-1,15.5-2,19-3.5,13-3.5,14.5" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-2" d="M516.5,434" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-2" d="M505.5,443s14.5-13.5,22-13.5" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-2" d="M512.5,442s15.5,1,19.5,7.5" transform="translate(-12.61 -10.61)"/>
+    <line class="cls-2" x1="268.89" y1="330.89" x2="308.89" y2="351.39"/>
+    <path class="cls-2" d="M302,349.5c.5-1.5,1.5-27,1.5-27l-24.5-20" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-2" d="M293.5,311c1.5-1.5,37.5-6,37.5-16s-1-22-1-22" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-2" d="M345.5,465a241,241,0,0,1-24.2,20.22c-7.12,5-14.33,9.1-19.3,9.28-13.5.5-23.5-14-23.5-14" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-2" d="M324.5,503c1,3-1-20.5-1-20.5" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-2" d="M332,478.5S356,491,355,500" transform="translate(-12.61 -10.61)"/>
+    <line class="cls-2" x1="307.39" y1="472.89" x2="292.39" y2="463.89"/>
+    <path class="cls-2" d="M420,482.5s4,24.5,2.5,31.5-5.5,22.5-5.5,22.5" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-2" d="M425.5,506.5S449,517,448,522.5" transform="translate(-12.61 -10.61)"/>
+    <circle class="cls-1" cx="385.39" cy="384.39" r="42"/>
+  </g>
+</svg>

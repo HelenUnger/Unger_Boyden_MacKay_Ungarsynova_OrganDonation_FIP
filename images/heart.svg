@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770.96 770.96">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #ca4d4d;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <title>heart</title>
+  <g id="Layer_7" data-name="Layer 7">
+    <circle class="cls-1" cx="385.48" cy="385.48" r="385.48"/>
+  </g>
+  <g id="HEART">
+    <path class="cls-2" d="M245.37,289.47s-35.48,160.07,35.48,229.46,206.59,90.67,257.84,63.86c0,0,63.91-224.4-108.67-303.12-1.48-.68-18.41-78.12-18.41-78.12l2.5-37.45-50.47-15.77-11,116.7s-33.91,4.73-44.16,13.4l-4.73-63.07s-28.39.78-37.06,9.46l3.94,50.46S247,281.59,245.37,289.47Z" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-3" d="M260.35,279.22s37.06,10.25,41.79,29.18c0,0,85.95-105.66,156.12-130.89,0,0,26.81,15,31.54,28.38s-104.08,63.87-87.52,189.24" transform="translate(-12.61 -10.61)"/>
+    <path class="cls-3" d="M301,434.16s29.57,102.9,158.49,102.9" transform="translate(-12.61 -10.61)"/>
+  </g>
+</svg>
