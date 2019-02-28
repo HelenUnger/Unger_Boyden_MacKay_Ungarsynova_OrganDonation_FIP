@@ -9,24 +9,33 @@ img{
     background-color: rgb(101, 137, 216);
 }
 
-a{
-    text-decoration: none;
-    margin: 0 auto;
-}
-
-.content{
-    margin-top: 45px;
-}
-
 .parallax{
-    background-color: rgb(151, 204, 218);
-    height: 600px;
+    // background-color: rgb(151, 204, 218);
+    // height: 600px;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1;
+    .images{
+        margin-bottom: -4px;
+    }
+    .mobile{
+        max-width: 100vw;
+        margin-top: -265px;
+        grid-column: 1/-1;
+        grid-row: 1/-1;
+    }
+    .desktop{
+        display: none;
+    }
     h2{
+        grid-column: 1/-1;
+        grid-row: 1/-1;
         display: block;
-        width: 100%;
+        width: 72%;
+        font-size: 2.5em;
+        margin: auto;
         text-align: center;
     } 
     a{
@@ -34,9 +43,13 @@ a{
     }
 }
 
+.content{
+    margin-top: 65px;
+}
+
 .half-div{
     width: 100%;
-    height: 500px;
+    height: 400px;
     display: flex;
     justify-items: center;
     flex-wrap: wrap;
@@ -56,26 +69,24 @@ a{
     a{
         bottom: 20px;
         left: 42%;
-        font-size: 1em;
+        font-size: 1.8em;
     }
 }
 
 .fact{
     a{
         // margin: 0 auto;
-        font-size: 1em;
+        font-size: 1.8em;
     }
-    img{
-        margin: 0 auto;
-        width: 85%;
-        height: 70%;
+    .fact-img{
+        width:100%;
+        img{
+            display: block;
+            margin: auto;
+            width: 85%;
+            background-color: transparent;
+        }
     }
-}
-
-.parallax .button{
-    background-color: #c30a35;
-    color: #fff;
-    font-size: 1.5em;
 }
 
 .red{
@@ -91,6 +102,9 @@ a{
     padding: 10px;
     display: inline-table;
     margin: 20px auto;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-size: 1.7em;
 }
 
 .white{
@@ -110,6 +124,7 @@ a{
     .left{
         width: 100%;
         text-align: center;
+        h2{font-size: 3em;}
         p{
             margin: 30px auto;
         }
@@ -128,7 +143,7 @@ a{
 
 
 .video{
-    height: 200px;
+    min-height: 250px;
     video{
         width: 90%;
         display: block;
@@ -151,15 +166,28 @@ flex-wrap: wrap-reverse;
         background-color: #fff;
         border-radius: 20px;
         padding: 5px;
-        font-size: 1em;
+        font-size: 1.8em;
     }
 }
+
+.event{
+    padding-left: 10px;
+    h3{
+        font-size: 1em;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 0.8em;
+    }
+}
+
 .eventsInfo{
     font-size: 1em;
     width: 100%;
     text-align: center;
     h2{
         margin-top: 10px;
+        font-size: 3em;
     }
     p{
         margin: 30px 40px;
@@ -189,19 +217,91 @@ flex-wrap: wrap-reverse;
     }
 }
 
-@media screen and (min-width: 760px){
-    .mins p{
-        width: 91%;
+p{
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//media queries 
+
+@media screen and (min-width: 375px){
+    .fact .fact-img img{
+            width: 75%;
     }
 
-    .fact img{
+    .parallax h2{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 414px){
+    .fact .fact-img img{
+            width: 70%;
+    }
+}
+
+
+@media screen and (min-width: 760px){
+    .content{
+        margin-top: 100px;
+    }
+
+    .parallax{
+        .mobile{
+            margin-top: -680px;
+        }
+        h2{
+            font-size: 5em;
+        }
+    }
+
+    .mins{ 
+        p{
         width: 91%;
+        }
+        .button{
+            font-size: 2em;
+        }
+    }
+
+    .fact {
+        height: 500px;
+        .fact-img img{
+        width: 50%;
+        }
+        .button{
+            font-size: 2em;
+        }
     }
 
     .video{
         height: 450px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (min-width: 1000px){
@@ -213,29 +313,36 @@ flex-wrap: wrap-reverse;
         flex-wrap: wrap;
     }
     
-    img{
-        background-color: rgb(101, 137, 216);
-    }
-    
     a{
         text-decoration: none;
         margin: 0 auto;
     }
     
     .content{
-        margin-top: 65px;
+        margin-top: 80px;
     }
     
     .parallax{
         background-color: rgb(151, 204, 218);
-        height: 600px;
+        // height: 600px;
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        h2{
+        // display: flex;
+        // flex-wrap: wrap;
+        .mobile{
+            display: none;
+        }
+        .desktop{
             display: block;
             width: 100%;
-            text-align: center;
+            position: relative;
+        }
+        h2{
+            display: block;
+            right: 63px;
+            width: 45%;
+            font-size: 5.5em;
+            text-align: right;
+            position: absolute;
         } 
         a{
             margin: 0 auto;
@@ -243,11 +350,8 @@ flex-wrap: wrap-reverse;
     }
     
     .half-div{
-        width: 50%;
         height: 500px;
-        display: flex;
-        justify-items: center;
-        flex-wrap: wrap;
+        width: 50%;
     }
     
     .one-div{
@@ -258,25 +362,26 @@ flex-wrap: wrap-reverse;
         p{
             width: 80%;
             margin: 50px auto;
-            font-size: 4em;
+            font-size: 1em;
             text-align: center;
         }
         a{
             bottom: 20px;
             left: 42%;
-            font-size: 2em;
+            font-size: 1em;
         }
     }
     
     .fact{
         a{
             // margin: 0 auto;
-            font-size: 2em;
+            font-size: 1em;
         }
-        img{
-            margin: 0 auto;
-            width: 85%;
-            height: 70%;
+        .fact-img{
+            width:100%;
+            img{
+                width: 55%;
+            }
         }
     }
     
@@ -299,6 +404,7 @@ flex-wrap: wrap-reverse;
         padding: 10px;
         display: inline-table;
         margin: 20px auto;
+        font-size: 2em;
     }
     
     .white{
@@ -311,13 +417,16 @@ flex-wrap: wrap-reverse;
     }
     
     .stories{
-        font-size: 2em;
+        font-size: 1em;
         padding: 30px;
         display: flex;
         flex-wrap: wrap;
         .left{
             width: 35%;
             text-align: center;
+            h2{
+                font-size: 4em;
+            }
             p{
                 margin: 30px auto;
             }
@@ -347,22 +456,27 @@ flex-wrap: wrap-reverse;
     
     .events{
         width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+
         a{
             width: 100%;
-            margin: 10px;
+            margin: 0 10px;
             display: block;
             background-color: #fff;
             border-radius: 20px;
             padding: 5px;
-            font-size: 2em;
+            font-size: 1.5em;
         }
     }
     .eventsInfo{
-        font-size: 2em;
+        font-size: 1em;
         width: 40%;
         text-align: center;
         h2{
             margin-top: 10px;
+            font-size: 2em;
         }
         p{
             margin: 30px 40px;
